@@ -353,7 +353,7 @@
     }
 
     .data-table-container, .control-table, .cs-table, .outgoing-dock-table {
-      overflow-x: auto;
+      overflow-x: auto !important;
       -webkit-overflow-scrolling: touch;
       
       table, .data-table {
