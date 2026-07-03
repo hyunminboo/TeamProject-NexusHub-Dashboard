@@ -1,9 +1,6 @@
-import { useNavigate } from 'react-router-dom';
 import { LogOut, User } from 'lucide-react';
 
 export default function AdminHeader() {
-  const navigate = useNavigate();
-
   const handleLogout = () => {
     window.location.href = import.meta.env.VITE_PUBLIC_URL;
   };
