@@ -90,7 +90,7 @@ export default function AdminLogin() {
           </div>
         </div>
 
-        <button className="back-public-btn" onClick={() => navigate('/')}>
+        <button className="back-public-btn" onClick={() => window.location.href = import.meta.env.VITE_PUBLIC_URL}>
           <Home size={16} /> 서비스 홈으로 돌아가기
         </button>
       </div>

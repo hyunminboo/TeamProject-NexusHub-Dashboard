@@ -5,8 +5,7 @@ export default function AdminHeader() {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    // 실제 로그아웃 로직(스토리지 비우기 등)이 필요하다면 여기에 추가
-    navigate('/');
+    window.location.href = import.meta.env.VITE_PUBLIC_URL;
   };
 
   return (
