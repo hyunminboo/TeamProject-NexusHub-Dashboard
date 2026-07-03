@@ -55,9 +55,11 @@ export default function LogisticsCS() {
         <div className="filter-groups">
           <div className="filter-group">
             <span className="group-label">접수 경로</span>
-            <button className="filter-btn active">전체</button>
-            <button className="filter-btn">홈페이지 자동연동</button>
-            <button className="filter-btn">현장 직접 등록</button>
+            <div className="filter-buttons">
+              <button className="filter-btn active">전체</button>
+              <button className="filter-btn">홈페이지 자동연동</button>
+              <button className="filter-btn">현장 직접 등록</button>
+            </div>
           </div>
         </div>
         <div className="search-box">

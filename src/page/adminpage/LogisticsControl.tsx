@@ -47,19 +47,23 @@ export default function LogisticsControl() {
         <div className="filter-groups">
           <div className="filter-group">
             <span className="group-label">상태</span>
-            <button className="filter-btn active">전체</button>
-            <button className="filter-btn">하차완료</button>
-            <button className="filter-btn">분류중</button>
-            <button className="filter-btn">상차완료</button>
-            <button className="filter-btn">미출고</button>
+            <div className="filter-buttons">
+              <button className="filter-btn active">전체</button>
+              <button className="filter-btn">하차완료</button>
+              <button className="filter-btn">분류중</button>
+              <button className="filter-btn">상차완료</button>
+              <button className="filter-btn">미출고</button>
+            </div>
           </div>
           <div className="filter-group">
             <span className="group-label">구역</span>
-            <button className="filter-btn active">전체 구역</button>
-            <button className="filter-btn">진접읍</button>
-            <button className="filter-btn">오남읍</button>
-            <button className="filter-btn">별내동</button>
-            <button className="filter-btn">퇴계원읍</button>
+            <div className="filter-buttons">
+              <button className="filter-btn active">전체 구역</button>
+              <button className="filter-btn">진접읍</button>
+              <button className="filter-btn">오남읍</button>
+              <button className="filter-btn">별내동</button>
+              <button className="filter-btn">퇴계원읍</button>
+            </div>
           </div>
         </div>
         <div className="search-box">
