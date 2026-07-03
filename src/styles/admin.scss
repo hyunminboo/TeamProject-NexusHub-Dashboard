@@ -378,3 +378,7 @@
   }
 }
 
+
+/* Global Filter Button Wrap Fix */
+.filter-btn, .filter-label, .group-label, .search-label { white-space: nowrap !important; word-break: keep-all !important; }
+.filter-section, .filter-bar, .filter-groups, .filter-left, .filter-group { flex-wrap: wrap; }
