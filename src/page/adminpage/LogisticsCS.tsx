@@ -1,4 +1,3 @@
-import React from 'react';
 import './LogisticsCS.scss';
 
 export default function LogisticsCS() {

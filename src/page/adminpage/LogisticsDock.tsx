@@ -1,4 +1,3 @@
-import React from 'react';
 import './LogisticsDock.scss';
 
 export default function LogisticsDock() {
